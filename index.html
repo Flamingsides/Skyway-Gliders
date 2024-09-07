@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+  <script type="module" crossorigin src="/assets/index-ll3XqqdZ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CyljCkKh.css">
+</head>
+<body>
+    <div id="overlay">
+        <h1>SCORE: <span id="score-ingame">0</span></h1>
+    </div>
+
+    <div id="end-screen">
+        <div class="content">
+            <h1>SCORE: <span id="score-endgame">0</span></h1>
+            <button type="button" id="restartButton">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <div id="start-screen">
+        <div class="content">
+            <h1>SKYWAY GLIDERS</h1>
+            <button type="button" id="playButton">START GAME</button>
+        </div>
+        <p id="authorship">A CPU Project by <a href="https://www.linkedin.com/in/suhaib-hameed-zuberi/">Suhaib Hameed Zuberi</a></p>
+        <p id="dedication-to">Dedicated to my brother, Abu Bakar</p>
+    </div>
+    
+    <canvas id="canvas-main"></canvas>
+
+    <audio style="display: none;" id="hit-sound" preload src="./audios/Plane Crash Sound Effect [BpyrhBTINnM] - edited.mp3">
+    
+</body>
+</html>
